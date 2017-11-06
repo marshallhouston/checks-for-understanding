@@ -63,7 +63,12 @@ We precompile assets to increase loading times on the app; though we might have 
 User.create(name: "Happy", active: true)
 ```
 
-  ???
+  ???  
+  After some basic researching, we can define a method at the top of a class by defining a method with a specific condition. In this case, we could now call User.true and it would only return objects that have an active attribute of true.  
+
+  ```scope :true, -> { where(active: 'true') }```
 
 11. What is the difference between a scope and a class method?
-  ???
+  ???  
+
+  Some basic research says that scopes will better handle nil values, but that class methods will throw errors.
