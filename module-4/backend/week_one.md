@@ -33,6 +33,7 @@ Note: When you're done, submit a PR.
   `npm` is Node Package Manager, and it is used to add libraries and packages to a node project. We use it to specify the packages that are required in the project, and we also use it to build the project before deployment.  
 
 #### Review  
+
 9. What's the MVC design pattern? Describe each part of MVC.  
 
   The MVC design pattern describes the interactions between model, views, and controller layers of an application. As a request is made to an application, the request is routed to a specific controller that then calls the model layer. The purpose of the model layer is to interact with the database and perform business logic and analytics on the records. The controller then takes the data from the model layer and interacts with the view layer, which is responsible for preparing the data for the browser (HTML). After the view is built, the controller sends the response back to the client.  
